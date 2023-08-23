@@ -1,0 +1,9 @@
+You can use netcat in linux  system to test your sender
+
+example, open tcp server in another console(same pc) that listens for incoming packets from your program
+
+nc -l <port>
+
+in this example
+
+nc -l 5225
